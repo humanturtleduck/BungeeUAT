@@ -9,6 +9,28 @@ Train a neural network with your drop data to use the Universal Approximation Th
 
 As you can see, the nn didn't completely fit the data, this is normal and you can overcome this by tuning the parameters.
 
-![image](https://github.com/user-attachments/assets/7171c630-11d3-4c4f-ac00-68a7bf582af8)
+## How to use
 
-This is the UI that I(poorly) made. the first textbox(top left) has the number of epochs. The second one(top right) has the number of dummy data points. You should press generate data before training off of this set. The training button also 
+![image](https://github.com/user-attachments/assets/1e27e0c2-9116-4f6b-ab47-f8d0965c51a8)
+
+
+This is the UI that I(poorly) made. I will explain the use of each button and textbox.
+
+- Number of training epochs is the how many cycles the network learns for
+- Number of random data points is for generating dummy data, you need to press generate data to make it. It will override any data you inputted
+- You can input your data using the button input data
+- you can press output data to see the estimates
+- Duplicates, shape, scale, and sigma are parameters for noise (gaussian and gamma). Figure out how they work ig
+
+## How to set up layers
+
+You can experiment with the number of hidden layers and number of neurons in each layer. The input layer will always hava 2 neurons, output layer will always have 1 neuron. I will give a few examples of possible configurations, but its not limiting.
+
+
+![image](https://github.com/user-attachments/assets/64d16b89-418a-43d7-a96b-6492297bc775)
+
+This would be:
+![image](https://github.com/user-attachments/assets/75d3c8a8-a2d3-40d2-b997-086351947e48)
+This is because the first hidden layer has 5 neurons, the second has 3.
+
+the cover would be 16 16 16 8, with all 4 numbers being on a separate line. I truly hate markdown.
