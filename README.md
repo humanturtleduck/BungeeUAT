@@ -7,7 +7,7 @@ Train a neural network with your drop data to use the Universal Approximation Th
 ![image](https://github.com/user-attachments/assets/adfbeb18-0651-4048-b45c-33807ee1750a)
 ![image](https://github.com/user-attachments/assets/3bce4505-db5c-4fee-937b-d561613cac43)
 
-As you can see, the nn didn't completely fit the data, this is normal and you can overcome this by tuning the parameters.
+As you can see, the nn didn't completely fit the data, this is normal and you can overcome this by tuning the parameters. ONCE THIS IS SMOOTH AND THE MEAN ABSOLUTE ERROR IS LOW, YOU ARE GOOD.
 
 ## How to use
 
