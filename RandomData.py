@@ -8,7 +8,7 @@ accel=9.8
 def generate_large_bungee_dataset(csv_file_path, num_samples=int(open("datalines.txt","r").read())):
 
     min_mass, max_mass = 0.05, 0.30
-    min_height, max_height = 1.0, 5.0
+    min_height, max_height = 1.0, 10.0
 
     with open(csv_file_path, mode='w', newline='') as f:
         writer = csv.writer(f)
